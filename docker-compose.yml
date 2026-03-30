@@ -1,0 +1,9 @@
+version: '3.8'
+services:
+  api-tests:
+    build: .
+    environment:
+      - BASE_URL=https://dog.ceo/api
+      - TAGS=
+    volumes:
+      - ./target:/app/target
