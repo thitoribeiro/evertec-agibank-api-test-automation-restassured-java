@@ -1,0 +1,1 @@
+[{"values":["https://dog.ceo/api"],"name":"API_BASE_URL"},{"values":["17"],"name":"JAVA_VERSION"},{"values":["RestAssured 5.4.0"],"name":"FRAMEWORK"},{"values":["JUnit 5.10.2"],"name":"TEST_RUNNER"},{"values":["Allure 2.25.0"],"name":"REPORT_TOOL"}]
