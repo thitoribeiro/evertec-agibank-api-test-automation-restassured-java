@@ -1,0 +1,12 @@
+{
+  "validBreeds": [
+    "labrador", "beagle", "poodle",
+    "husky", "bulldog", "retriever", "dalmatian"
+  ],
+  "invalidBreeds": [
+    "invalidbreed", "xyz123", "notadog", "123"
+  ],
+  "breedsWithSubBreeds": [
+    "hound", "terrier", "spaniel"
+  ]
+}
