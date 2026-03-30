@@ -129,4 +129,3 @@ Configuramos o Allure para agrupar erros automaticamente em categorias:
 - **Testes Ignorados:** Testes skipados.
 
 ---
-Feito com ❤️ por [Thiago Ribeiro](https://github.com/thitoribeiro)
