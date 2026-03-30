@@ -1,0 +1,21 @@
+[
+  {
+    "name": "Falhas de produto — resposta inesperada da API",
+    "matchedStatuses": ["failed"],
+    "messageRegex": ".*expected.*but was.*|.*Expected.*Actual.*"
+  },
+  {
+    "name": "Falhas de ambiente — conexão ou timeout",
+    "matchedStatuses": ["broken"],
+    "messageRegex": ".*Connection.*|.*timeout.*|.*refused.*|.*UnknownHost.*"
+  },
+  {
+    "name": "Falhas de contrato — schema inválido",
+    "matchedStatuses": ["failed"],
+    "messageRegex": ".*schema.*|.*Schema.*|.*JSON.*"
+  },
+  {
+    "name": "Testes ignorados",
+    "matchedStatuses": ["skipped"]
+  }
+]
