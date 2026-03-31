@@ -1,0 +1,10 @@
+services:
+  api-tests:
+    build: .
+    volumes:
+      - ./target:/app/target
+    environment:
+      - TAGS=${TAGS:-}
+    command: >
+      mvn test
+      ${TAGS:+-Dgroups=${TAGS}}
