@@ -46,9 +46,11 @@ src/test/java/com/evertec/agibank/dogapi/
 └── utils/      # Helpers (SchemaValidator, AllureTestListener, TestDataFactory)
 
 src/test/resources/
-├── schemas/    # Arquivos .json para validação de contrato
-├── testdata/   # Dados de teste (ex: breeds.json)
-└── environment.properties # Informações do ambiente para o Allure
+├── schemas/               # Arquivos .json para validação de contrato
+├── testdata/              # Dados de teste (breeds.json)
+├── allure.properties      # Configuração do diretório de resultados do Allure
+├── categories.json        # Categorização de falhas no Allure
+└── environment.properties # Informações do ambiente exibidas no relatório
 ```
 
 ---
@@ -94,13 +96,7 @@ O projeto já possui suporte nativo ao Docker para garantir consistência entre 
 ```bash
 docker-compose up --build
 ```
-Os resultados (reports) serão gerados na pasta `target` local, graças ao volume configurado no `docker-compose.yml`.
-
-### Rodar apenas Testes de Fumaça (Smoke Tests)
-Você pode passar a variável de ambiente `TAGS` para filtrar os testes:
-```bash
-TAGS=smoke docker-compose up --build
-```
+Os resultados serão gerados na pasta `target` local, graças ao volume configurado no `docker-compose.yml`.
 
 ---
 
