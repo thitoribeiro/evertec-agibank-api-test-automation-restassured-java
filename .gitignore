@@ -34,6 +34,12 @@ bin/
 # Allure
 allure-results/
 allure-report/
+target/allure-results/
+target/allure-report/
+target/site/allure-maven-plugin/
+
+# Surefire reports
+target/surefire-reports/
 
 # Logs
 *.log
