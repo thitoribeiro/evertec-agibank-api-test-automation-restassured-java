@@ -32,6 +32,7 @@ bin/
 .LSOverride
 
 # Allure
+.allure/
 allure-results/
 allure-report/
 target/allure-results/
