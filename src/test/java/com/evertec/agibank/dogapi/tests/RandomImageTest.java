@@ -17,6 +17,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
 @Feature("Random Image")
 @Story("Imagem aleatória de qualquer raça")
+@DisplayName("Random Image — GET /breeds/image/random")
 class RandomImageTest extends BaseTest {
 
     private static DogApiService dogApiService;

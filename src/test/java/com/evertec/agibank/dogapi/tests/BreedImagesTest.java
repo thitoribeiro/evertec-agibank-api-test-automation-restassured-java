@@ -28,7 +28,7 @@ class BreedImagesTest extends BaseTest {
     }
 
     @Nested
-    @DisplayName("Happy path — breed válida")
+    @DisplayName("Breed Images [válida] — GET /breed/{breed}/images")
     @Story("Imagens de raça existente")
     class ValidBreedTests {
 
@@ -115,7 +115,7 @@ class BreedImagesTest extends BaseTest {
     }
 
     @Nested
-    @DisplayName("Cenários negativos — breed inválida")
+    @DisplayName("Breed Images [inválida] — GET /breed/{breed}/images")
     @Story("Breed inexistente")
     class InvalidBreedTests {
 

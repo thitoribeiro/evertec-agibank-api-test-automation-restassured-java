@@ -20,6 +20,7 @@ import static org.hamcrest.MatcherAssert.assertThat;
 
 @Feature("Breed List")
 @Story("Listar todas as raças")
+@DisplayName("Breed List — GET /breeds/list/all")
 class BreedListTest extends BaseTest {
 
     private static DogApiService dogApiService;
